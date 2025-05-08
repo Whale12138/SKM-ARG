@@ -1,5 +1,4 @@
 function [res_SKM_AGR,time_SKM_AGR,obj] = run_SKM_AGR(X,Y,numAnchor,numNearestAnchor,mu,rho,lamda)
-% Fuzzy Clustering on Bipartite Graph
 % min || u_i - v_k ||^2_{2}*y_ik + Lambda|| Y - BZ ||^2_{F}
 % s.t. Y>=0,Y1=1,Z>=0,Z1=1,v_k
 % solve:
