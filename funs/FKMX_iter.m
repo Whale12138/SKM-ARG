@@ -19,7 +19,7 @@ function [output,obj] = FKMX_iter(X,Y,c,numAnchor,numNearestAnchor,mu,rho,lamda)
 % s.t. Y>=0,Y1=1,
 % Input: data matrix X(n*d), label Y
 % Output: clustering ACC, NMI, and purity
-% 2023/8/15 vison 5.0 Whale
+% 2023/12/15 vison 1.0 Whale
 
 %% Initial value processing
 num = size(X,1);
